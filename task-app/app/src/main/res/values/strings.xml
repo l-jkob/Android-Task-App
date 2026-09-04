@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string-array name="listelements">
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <item>Option 3</item>
+        <item>Option 4</item>
+        <item>Option 5</item>
+    </string-array>
+
+
+    <string name="label_select_date">Select date</string>
+    <string name="label_select_time">Select time</string>
+</resources>

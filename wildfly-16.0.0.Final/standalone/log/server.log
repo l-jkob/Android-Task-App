@@ -1,0 +1,31 @@
+2026-07-02 08:32:14,921 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory /var/home/l_jkob/Mobile/Mobile-Applications-SS26/wildfly-16.0.0.Final/standalone/deployments
+2026-07-02 08:32:14,928 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "backend-1.0-SNAPSHOT.war" (runtime-name: "backend-1.0-SNAPSHOT.war")
+2026-07-02 08:32:14,984 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2026-07-02 08:32:15,045 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBossWS 5.2.4.Final (Apache CXF 3.2.7) 
+2026-07-02 08:32:16,342 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-3) WFLYRS0018: Explicit usage of Jackson annotation in a JAX-RS deployment; the system will disable JSON-B processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore JSON-B.
+2026-07-02 08:32:16,368 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Infinity Minus ONE +2' 9.4.8.Final
+2026-07-02 08:32:16,733 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 74) WFLYCLINF0002: Started client-mappings cache from ejb container
+2026-07-02 08:32:16,841 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 75) RESTEASY002150: resteasy.scan is no longer supported.  Use a servlet 3.0 container and the ResteasyServletInitializer
+2026-07-02 08:32:17,185 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 75) HV000001: Hibernate Validator 6.0.15.Final
+2026-07-02 08:32:17,233 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0021: Registered web context: '/backend-1.0-SNAPSHOT' for server 'default-server'
+2026-07-02 08:32:17,280 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 43) WFLYSRV0010: Deployed "backend-1.0-SNAPSHOT.war" (runtime-name : "backend-1.0-SNAPSHOT.war")
+2026-07-02 08:32:17,316 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2026-07-02 08:32:17,318 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2026-07-02 08:32:17,319 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2026-07-02 08:32:17,319 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 16.0.0.Final (WildFly Core 8.0.0.Final) started in 5387ms - Started 413 of 603 services (329 services are lazy, passive or on-demand)
+2026-07-02 08:32:49,667 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0272: Suspending server
+2026-07-02 08:32:49,669 INFO  [org.jboss.as.ejb3] (management-handler-thread - 1) WFLYEJB0493: EJB subsystem suspension complete
+2026-07-02 08:32:49,670 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2026-07-02 08:32:49,683 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2026-07-02 08:32:49,684 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0022: Unregistered web context: '/backend-1.0-SNAPSHOT' from server 'default-server'
+2026-07-02 08:32:49,690 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2026-07-02 08:32:49,691 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+2026-07-02 08:32:49,692 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2026-07-02 08:32:49,703 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTPS listener https suspending
+2026-07-02 08:32:49,703 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTP listener default suspending
+2026-07-02 08:32:49,705 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2026-07-02 08:32:49,705 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2026-07-02 08:32:49,705 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment backend-1.0-SNAPSHOT.war (runtime-name: backend-1.0-SNAPSHOT.war) in 31ms
+2026-07-02 08:32:49,707 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Undertow 2.0.19.Final stopping
+2026-07-02 08:32:49,709 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 82) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2026-07-02 08:32:49,718 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Full 16.0.0.Final (WildFly Core 8.0.0.Final) stopped in 42ms
