@@ -1,4 +1,0 @@
-com.example.myapplication.test.app-androidTest-0 /var/home/l_jkob/Mobile/semesterproject_filip_leon/semesterproject_filip_leon/app/build/generated/res/resValues/androidTest/debug
-com.example.myapplication.test.app-mergeDebugAndroidTestResources-1 /var/home/l_jkob/Mobile/semesterproject_filip_leon/semesterproject_filip_leon/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-com.example.myapplication.test.app-mergeDebugAndroidTestResources-2 /var/home/l_jkob/Mobile/semesterproject_filip_leon/semesterproject_filip_leon/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-com.example.myapplication.test.app-debugAndroidTest-3 /var/home/l_jkob/Mobile/semesterproject_filip_leon/semesterproject_filip_leon/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

@@ -1,0 +1,17 @@
+# Gradle / build output
+.gradle/
+build/
+*.apk
+*.aab
+
+# Local machine config (SDK path)
+local.properties
+
+# IDE
+.idea/
+.run/
+*.iml
+.DS_Store
+
+# Application server (download separately, see README)
+wildfly-*/
